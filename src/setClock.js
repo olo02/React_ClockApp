@@ -31,7 +31,7 @@ const SetClock = () => {
         }
     }
 
-    setInterval(Clock, 1000);
+    setInterval(Clock, 100);
 
     return (
         <div className="ClockWrapper" style={{
